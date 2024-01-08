@@ -40,3 +40,12 @@ Fix:
 ```
 sudo apt remove brltty
 ```
+### Failed uploading: uploading error: exit status 1
+Cause: You might have selected the wrong bootloader for your Arduino processor
+
+Fix:
+
+1. Inside the Arduino IDE navigate to Tools/Processor
+2. Choose the correct bootloader
+
+Tipp: Most of the cheap Arduino alternatives use the *"old bootloader"*
